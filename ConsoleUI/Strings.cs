@@ -1,0 +1,19 @@
+﻿namespace ConsoleUI
+{
+    internal static class Strings
+    {
+        #region Internal Fields
+
+        internal const string AttemptResult = "Attempt result: {0}";
+        internal const string EnterTry = "Enter the attempt code ({0}/{1}):";
+        internal const string Instructions = "Enter a {0} digits secret code or leave in blank to ramdomly generate a code to be guessed\r\n'O' Means the digit is correct and the pace is correct\r\n'?' Means the digit is correct but placed wrong\r\n'X' Means digit is worng";
+        internal const string LoseMessage = "\r\n\r\n .+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+. \r\n(    __     __           _                    _       )\r\n )   \\ \\   / /          | |                  | |     ( \r\n(     \\ \\_/ /__  _   _  | |     ___  ___  ___| |      )\r\n )     \\   / _ \\| | | | | |    / _ \\/ __|/ _ \\ |     ( \r\n(       | | (_) | |_| | | |___| (_) \\__ \\  __/_|      )\r\n )      |_|\\___/ \\__,_| |______\\___/|___/\\___(_)     ( \r\n(                                                     )\r\n \"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\" \r\n\r\n";
+        internal const string MustBeNumber = "The code must be only numbers";
+        internal const string NewGame = "Play again? (y/n):";
+        internal const string SecretCode = "Enter the code:";
+        internal const string Title = "\r\n\r\n _____                                                                 _____ \r\n( ___ )---------------------------------------------------------------( ___ )\r\n |   |                                                                 |   | \r\n |   |  ██████   ██████                    █████                       |   | \r\n |   | ░░██████ ██████                    ░░███                        |   | \r\n |   |  ░███░█████░███   ██████    █████  ███████    ██████  ████████  |   | \r\n |   |  ░███░░███ ░███  ░░░░░███  ███░░  ░░░███░    ███░░███░░███░░███ |   | \r\n |   |  ░███ ░░░  ░███   ███████ ░░█████   ░███    ░███████  ░███ ░░░  |   | \r\n |   |  ░███      ░███  ███░░███  ░░░░███  ░███ ███░███░░░   ░███      |   | \r\n |   |  █████     █████░░████████ ██████   ░░█████ ░░██████  █████     |   | \r\n |   | ░░░░░     ░░░░░  ░░░░░░░░ ░░░░░░     ░░░░░   ░░░░░░  ░░░░░      |   | \r\n |   |                                                                 |   | \r\n |   |                                                                 |   | \r\n |   |                                                                 |   | \r\n |   |  ██████   ██████  ███                 █████                     |   | \r\n |   | ░░██████ ██████  ░░░                 ░░███                      |   | \r\n |   |  ░███░█████░███  ████  ████████    ███████                      |   | \r\n |   |  ░███░░███ ░███ ░░███ ░░███░░███  ███░░███                      |   | \r\n |   |  ░███ ░░░  ░███  ░███  ░███ ░███ ░███ ░███                      |   | \r\n |   |  ░███      ░███  ░███  ░███ ░███ ░███ ░███                      |   | \r\n |   |  █████     █████ █████ ████ █████░░████████                     |   | \r\n |   | ░░░░░     ░░░░░ ░░░░░ ░░░░ ░░░░░  ░░░░░░░░                      |   | \r\n |___|                                                                 |___| \r\n(_____)---------------------------------------------------------------(_____)";
+        internal const string WinMessage = "\r\n\r\n.·:''''''''''''''''''''''''''''''''''''''''':·.\r\n: : __     __                    _       _  : :\r\n: : \\ \\   / /                   (_)     | | : :\r\n: :  \\ \\_/ /__  _   _  __      ___ _ __ | | : :\r\n: :   \\   / _ \\| | | | \\ \\ /\\ / / | '_ \\| | : :\r\n: :    | | (_) | |_| |  \\ V  V /| | | | |_| : :\r\n: :    |_|\\___/ \\__,_|   \\_/\\_/ |_|_| |_(_) : :\r\n'·:.........................................:·'\r\n\r\n";
+
+        #endregion Internal Fields
+    }
+}

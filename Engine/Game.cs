@@ -146,6 +146,6 @@ namespace Engine
     public record Options
     {
         public uint CodeLength { init; get; } = 3;
-        public ushort MaxTries { init; get; } = 9;
+        public ushort MaxTries { init; get; } = 6;
     }
 }
