@@ -46,7 +46,7 @@ while (true)
         {
             Console.Write(Strings.EnterTry, _game.Data.CurrentTurn, _game.Data.Options.MaxTries);
             var currentTry = Console.ReadLine();
-            if (!ValidateIsNumber(currentTry))
+            if (string.IsNullOrEmpty(currentTry) || !ValidateIsNumber(currentTry))
                 continue;
 
             string result = string.Empty;
@@ -118,9 +118,9 @@ static string ReadLineMasked()
     return input.ToString();
 }
 
-static bool ValidateIsNumber(string? secrectCode)
+static bool ValidateIsNumber(string entry)
 {
-    if (string.IsNullOrEmpty(secrectCode) || secrectCode.Any(c => c < 48 || c > 57))
+    if (entry.Any(c => c < 48 || c > 57))
     {
         Console.WriteLine(Strings.MustBeNumber);
         return false;
