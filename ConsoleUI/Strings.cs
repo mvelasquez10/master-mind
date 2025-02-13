@@ -6,7 +6,7 @@
 
         internal const string AttemptResult = "Attempt result: {0}";
         internal const string EnterTry = "Enter the attempt code ({0}/{1}):";
-        internal const string Instructions = "Enter a {0} digits secret code or leave in blank to ramdomly generate a code to be guessed\r\n'O' Means the digit is correct and the pace is correct\r\n'?' Means the digit is correct but placed wrong\r\n'X' Means digit is worng";
+        internal const string Instructions = "Enter a {0} digits secret code or leave in blank to ramdomly generate a code to be guessed\r\n'O' Means the digit is correct and the pace is correct\r\n'?' Means the digit is correct but placed wrong\r\n'X' Means digit is wrong";
         internal const string LoseMessage = "\r\n\r\n .+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+. \r\n(    __     __           _                    _       )\r\n )   \\ \\   / /          | |                  | |     ( \r\n(     \\ \\_/ /__  _   _  | |     ___  ___  ___| |      )\r\n )     \\   / _ \\| | | | | |    / _ \\/ __|/ _ \\ |     ( \r\n(       | | (_) | |_| | | |___| (_) \\__ \\  __/_|      )\r\n )      |_|\\___/ \\__,_| |______\\___/|___/\\___(_)     ( \r\n(                                                     )\r\n \"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\"+.+\" \r\n\r\n";
         internal const string MustBeNumber = "The code must be only numbers";
         internal const string NewGame = "Play again? (y/n):";
